@@ -1,0 +1,71 @@
+.subscriptionPage {
+    height: 100%;
+    max-width: 100%;
+    padding: 2vmax;
+}
+
+.subscriptionContainer {
+    align-items: center;
+}
+
+.subscriptionHeading {
+    color: #113F67;
+    text-align: center;
+    font-size: 2vmax;
+    border-bottom: 1px solid #113F67;
+    width: 20vmax;
+    margin: 3vmax auto;
+}
+
+.plansContainer {
+    text-align: center;
+    display: flex;
+}
+
+.plan {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #113F67;
+    border-radius: 10px;
+    color: #113F67;
+}
+
+.plan>p {
+    margin-bottom: 50px;
+}
+
+.pay-btn {
+    text-decoration: none;
+    background: #87C0CD;
+    border: 1px solid #113F67;
+    border-radius: 20px;
+    padding: 20px 50px;
+    color: #113F67;
+    font-family: 'IM FELL Great Primer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.pay-btn:hover {
+    background: #113F67;
+    color: #87C0CD;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    padding: 25px 55px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .subscriptionPage {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .subscriptionContainer {
+        margin: 5vmax;
+    }
+}

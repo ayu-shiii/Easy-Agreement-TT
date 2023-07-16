@@ -1,0 +1,58 @@
+.transfer-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #113F67;
+    margin: 0;
+    padding: 30px;
+}
+
+.renew-btn {
+    text-decoration: none;
+    background: #87C0CD;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: #113F67;
+    font-family: 'IM FELL Great Primer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    border: 1px solid #113F67;
+    position: fixed;
+    top: 100px;
+    right: 80px;
+    z-index: 9999;
+}
+
+.renew-btn:hover {
+    background: #113F67;
+    color: #87C0CD;
+    cursor: pointer;
+}
+
+.renew-btn:disabled {
+    background-color: #226597;
+    color: #87C0CD;
+    cursor: no-drop;
+}
+
+.single-transaction {
+    padding: 10px;
+    margin: 20px 80px;
+    background: #CCF2F4;
+    border-radius: 20px;
+    color: #113F67;
+    border: 1px solid #113F67;
+}
+
+.single-transaction>h3 {
+    margin: 30px 50px;
+}
+
+.single-transaction>p {
+    margin: 10px 50px;
+}
