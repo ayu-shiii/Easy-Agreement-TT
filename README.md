@@ -12,7 +12,7 @@ Easy Agreement is a web-based application designed to simplify the understanding
 
 To use Easy Agreement locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/ri-tae-ka/EasyAgreement.git`
+1. Clone the repository: `https://github.com/ayu-shiii/Easy-Agreement-TT.git`
 2. Navigate to the project directory: `cd easy-agreement`
 3. Install dependencies in root folder as well as client folder: `npm install`
 4. Create a `.env` file ~ `server/config/config.env` as `.env.sample`
